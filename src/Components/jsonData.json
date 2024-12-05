@@ -1,0 +1,850 @@
+{
+    "timestamp": "2024-11-18T04:38:11.717716Z",
+    "data": {
+        "purchase_order": {
+            "OrderId": 3000121982,
+            "VendorId": 4000001818,
+            "CompanyCode": "441T",
+            "MaterialGroup": "QCL",
+            "CustomFields": {
+                "Requistioner": "Linda.Mutch@",
+                "InvReceipt": "True",
+                "FinalInvoice": "",
+                "GR_Bsd": "",
+                "S_Based": "",
+                "I": "",
+                "material": ""
+            },
+            "POHeader": {
+                "CurrencyCode": "GBP"
+            },
+            "PODetail": {
+                "Lineitem": {
+                    "lineitem": [
+                        {
+                            "ItemNumber": "00010",
+                            "Amount": {
+                                "Amount": 94000.0,
+                                "CurrencyCode": "GBP"
+                            },
+                            "Description": "Enterprise SO3 Vehicle Hire FY23/24 - Re",
+                            "Quantity": 1,
+                            "UnitPrice": 94000.0,
+                            "Date": "",
+                            "Tax": {
+                                "Amount": 0.0,
+                                "CurrencyCode": "GBP"
+                            }
+                        }
+                    ]
+                },
+                "SubTotal": {
+                    "Amount": 0.0,
+                    "CurrencyCode": ""
+                },
+                "TotalTax": {
+                    "Amount": 0.0,
+                    "CurrencyCode": ""
+                },
+                "GrandTotal": {
+                    "Amount": 0.0,
+                    "CurrencyCode": ""
+                },
+                "CurrencyCode": "GBP"
+            },
+            "event_details": {
+                "event_time": "2024-11-18T04:38:04.0000000Z",
+                "event_id": "aHVIAdaPKBCM4zKXZTTcOqGp0MCeyJtm2LP8vKRqQYE6BElQavuEqse1Emiw",
+                "subject": "Success PO/Vendor/GR Retrieved"
+            }
+        },
+        "vendor": {
+            "vendor": {
+                "VendorId": 4000001818,
+                "VendorName": "ENTERPRISE RENT-A-CAR UK LIMITED",
+                "VendorAddress": {
+                    "StreetAddress": "VICARAGE ROAD",
+                    "City": "",
+                    "State": "TW20 9FB",
+                    "PostalCode": "TW20 9FB"
+                },
+                "E-mail": "UNANDERRA",
+                "ABN": "GB215557314",
+                "Iban1": 23845792,
+                "Iban2": "",
+                "Iban3": "GB58HBUK40141322762315",
+                "Iban4": "",
+                "Iban5": "",
+                "BankDetails": {
+                    "BankKey": 401413,
+                    "BankAccount": 22762315,
+                    "AcctHolder": "",
+                    "Currency": "GBP1"
+                },
+                "BankDetails1": {
+                    "BankKey": "",
+                    "BankAccount": "",
+                    "AcctHolder": "",
+                    "Currency1": ""
+                },
+                "BankDetails2": {
+                    "BankKey": "",
+                    "BankAccount": "",
+                    "AcctHolder": "",
+                    "Currency2": ""
+                },
+                "BankDetails3": {
+                    "BankKey": "",
+                    "BankAccount": "",
+                    "AcctHolder": "",
+                    "Currency3": ""
+                },
+                "BankDetails4": {
+                    "BankKey": "",
+                    "BankAccount": "",
+                    "AcctHolder": "",
+                    "Currency4": ""
+                }
+            }
+        },
+        "goods_received": {
+            "Vendor": {
+                "VendorId": 4000001818,
+                "VendorName": "ENTERPRISE RENT-A-CAR UK LIMITED",
+                "VendorAddress": {
+                    "StreetAddress": "VICARAGE ROAD",
+                    "City": "",
+                    "State": "TW20 9FB",
+                    "PostalCode": "TW20 9FB"
+                },
+                "E-mail": "",
+                "ABN": "GB215557314",
+                "BankDetails": {
+                    "BankKey": 401413,
+                    "BankAccount": 22762315,
+                    "AcctHolder": ""
+                }
+            },
+            "Items": {
+                "items": {
+                    "grn-lineitem": [
+                        {
+                            "ItemNumber": null,
+                            "Description": null,
+                            "Amount": null,
+                            "Quantity": null,
+                            "Reference": null
+                        }
+                    ]
+                }
+            }
+        },
+        "source": {
+            "transaction": {
+                "id": "1130985_20241118043616188578xzN0H.pdf",
+                "transaction_time": "2024-11-18T04:36:16"
+            },
+            "email_details": {
+                "Attachment": "1130985_20241118043616188578xzN0H.pdf",
+                "Original_name": "1130985.pdf"
+            },
+            "event_details": {
+                "event_time": "2024-11-18T04:36:16.0000000Z",
+                "event_id": "3YNCEB5NyfuYqia3aKIIH1PASxUr8D2mSsjIzkbDmelSy6Q234hJ2vlVQ8nM",
+                "subject": "New Invoice"
+            }
+        },
+        "invoice": {
+            "InvoiceId": {
+                "Confidence": 0.839,
+                "ext_source": "DI",
+                "Value": 1130985
+            },
+            "InvoiceDate": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": "26/07/2024"
+            },
+            "DueDate": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": "25/08/24"
+            },
+            "CustomerId": {
+                "Confidence": 0.824,
+                "ext_source": "DI",
+                "Value": "FF0456"
+            },
+            "CustomerName": {
+                "Confidence": 0.885,
+                "ext_source": "DI",
+                "Value": "Siemens Gamesa Renewable Energy Ltd\nBlade Factory"
+            },
+            "CustomerAddressRecipient": {
+                "Confidence": 0.885,
+                "ext_source": "DI",
+                "Value": "Siemens Gamesa Renewable Energy Ltd\nBlade Factory"
+            },
+            "CustomerAddress": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": {
+                    "house_number": null,
+                    "po_box": null,
+                    "road": "Sir William Siemens Way",
+                    "city": "Hull",
+                    "state": null,
+                    "postal_code": "HU91TA",
+                    "country_region": "United Kingdom",
+                    "street_address": null,
+                    "unit": null,
+                    "city_district": null,
+                    "state_district": null,
+                    "suburb": null,
+                    "house": null,
+                    "level": null
+                }
+            },
+            "CustomerTaxId": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": "GB324778185"
+            },
+            "VendorTaxId": {
+                "Confidence": 0.887,
+                "ext_source": "DI",
+                "Value": "GB 215 5573 14"
+            },
+            "VendorName": {
+                "Confidence": 0.938,
+                "ext_source": "DI",
+                "Value": "Enterprise"
+            },
+            "VendorAddressRecipient": {
+                "Confidence": 0.916,
+                "ext_source": "DI",
+                "Value": "Enterprise Flex-E Rent"
+            },
+            "VendorAddress": {
+                "Content": "Knights Way\nBattlefield Enterprise Park\nShrewsbury, SY1 3AB",
+                "Confidence": 0.877,
+                "ext_source": "DI",
+                "Value": {
+                    "house_number": null,
+                    "po_box": null,
+                    "road": "Knights Way\nBattlefield Enterprise Park",
+                    "city": "Shrewsbury",
+                    "state": null,
+                    "postal_code": "SY1 3AB",
+                    "country_region": null,
+                    "street_address": "Knights Way\nBattlefield Enterprise Park",
+                    "unit": null,
+                    "city_district": null,
+                    "state_district": null,
+                    "suburb": null,
+                    "house": null,
+                    "level": null
+                }
+            },
+            "PurchaseOrder": {
+                "Confidence": 0.99,
+                "ext_source": "DI",
+                "Value": 3000121982
+            },
+            "BillingAddressRecipient": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": "Siemens Gamesa Renewable Energy Ltd"
+            },
+            "BillingAddress": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": {
+                    "house_number": null,
+                    "po_box": null,
+                    "road": "Sir William Siemens Way",
+                    "city": "Hull",
+                    "state": null,
+                    "postal_code": "HU91TA",
+                    "country_region": "United Kingdom",
+                    "street_address": null,
+                    "unit": null,
+                    "city_district": null,
+                    "state_district": null,
+                    "suburb": null,
+                    "house": null,
+                    "level": null
+                }
+            },
+            "ShippingAddressRecipient": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": "Siemens Gamesa Renewable Energy Ltd"
+            },
+            "ShippingAddress": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": {
+                    "house_number": null,
+                    "po_box": null,
+                    "road": "Sir William Siemens Way",
+                    "city": "Hull",
+                    "state": null,
+                    "postal_code": "HU91TA",
+                    "country_region": "United Kingdom",
+                    "street_address": null,
+                    "unit": null,
+                    "city_district": null,
+                    "state_district": null,
+                    "suburb": null,
+                    "house": null,
+                    "level": null
+                }
+            },
+            "PaymentTerm": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": "Payment to be made by BACS / Same day transfer"
+            },
+            "PaymentDetails": {
+                "Confidence": 0.98,
+                "ext_source": "DI",
+                "Value": [
+                    {
+                        "IBAN": "GB58HBUK40141322762315",
+                        "confidence": 0.978
+                    },
+                    {
+                        "SWIFT": "HBUKGB4B",
+                        "confidence": 0.978
+                    }
+                ]
+            },
+            "CurrencyCode": {
+                "Confidence": 0.938,
+                "ext_source": "DI",
+                "Value": "GBP"
+            },
+            "SubTotal": {
+                "Confidence": 0.939,
+                "ext_source": "DI",
+                "Value": {
+                    "amount": 619.6,
+                    "code": "GBP"
+                }
+            },
+            "TaxDetails": {
+                "Confidence": 0.76,
+                "ext_source": "DI",
+                "Value": [
+                    {
+                        "Amount": {
+                            "amount": 123.92,
+                            "symbol": null,
+                            "code": "GBP"
+                        },
+                        "confidence": 0.755
+                    },
+                    {
+                        "Rate": 20.0,
+                        "confidence": 0.674
+                    }
+                ]
+            },
+            "TotalTax": {
+                "Confidence": 0.937,
+                "ext_source": "DI",
+                "Value": {
+                    "amount": 123.92,
+                    "code": "GBP"
+                }
+            },
+            "TotalDiscount": {
+                "Confidence": null,
+                "ext_source": "DI",
+                "Value": {
+                    "amount": "",
+                    "code": ""
+                }
+            },
+            "InvoiceTotal": {
+                "Confidence": 0.938,
+                "ext_source": "DI",
+                "Value": {
+                    "amount": 743.52,
+                    "code": "GBP"
+                }
+            },
+            "TaxCode": {
+                "Confidence": null,
+                "ext_source": "DI",
+                "Value": ""
+            },
+            "PurchaseOrder_line": {
+                "Confidence": 0.99,
+                "ext_source": "DI",
+                "Value": ""
+            },
+            "Item": [
+                {
+                    "ProductCode": {
+                        "Confidence": 1.0,
+                        "ext_source": "GEN AI",
+                        "Value": 3000121982
+                    },
+                    "Description": {
+                        "Confidence": 1.0,
+                        "ext_source": "GEN AI",
+                        "Value": "Transit 2.0TDCI 130PS 350 LEA Finance"
+                    },
+                    "Quantity": {
+                        "Confidence": 0.8,
+                        "ext_source": "GEN AI",
+                        "Value": 1
+                    },
+                    "TaxRate": {
+                        "Confidence": 1.0,
+                        "ext_source": "GEN AI",
+                        "Value": 20.0
+                    },
+                    "Tax": {
+                        "Confidence": 1.0,
+                        "ext_source": "GEN AI",
+                        "Value": {
+                            "amount": 123.92,
+                            "code": "GBP"
+                        }
+                    },
+                    "UnitPrice": {
+                        "Confidence": 1.0,
+                        "ext_source": "GEN AI",
+                        "Value": {
+                            "amount": 619.6,
+                            "code": "GBP"
+                        }
+                    },
+                    "NetAmount": {
+                        "Confidence": 1.0,
+                        "ext_source": "GEN AI",
+                        "Value": {
+                            "amount": 619.6,
+                            "code": "GBP"
+                        }
+                    },
+                    "Amount": {
+                        "Value": {
+                            "amount": 619.6,
+                            "code": "GBP"
+                        },
+                        "Confidence": 1.0
+                    }
+                }
+            ],
+            "BankKey": {
+                "Confidence": 0.99,
+                "ext_source": "DI",
+                "Value": "40-14-13"
+            },
+            "BankAccountNumber": {
+                "Confidence": 0.99,
+                "ext_source": "DI",
+                "Value": 22762315
+            },
+            "E-Mail": {
+                "Confidence": 0.898,
+                "ext_source": "DI",
+                "Value": "FERREMITTANCES@ehi.com"
+            },
+            "Fileinfo": {
+                "FileType": "RENTAL INVOICE"
+            },
+            "FeesAndTaxesInfo": "VAT SUMMARY TOTALS: 619.60 S, 123.92, 743.52",
+            "ReferenceNumber": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": 1130985
+            },
+            "CustomerOrder": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": 3000121982
+            },
+            "TransactionType": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": "RENTAL"
+            },
+            "VendorCountry": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": "United Kingdom"
+            },
+            "CustomerCountry": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": "United Kingdom"
+            },
+            "AmountDue": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": {
+                    "amount": 743.52,
+                    "code": "GBP"
+                }
+            },
+            "OtherTaxInfo": {
+                "Confidence": 0.98,
+                "ext_source": "GEN AI",
+                "Value": "VAT No: GB 215 5573 14"
+            },
+            "UpdatedItem": [
+                {
+                    "ItemNumber": {
+                        "Confidence": 0.99,
+                        "ext_source": "DI",
+                        "Value": 1
+                    },
+                    "Date": {
+                        "Confidence": null,
+                        "ext_source": "DI",
+                        "Value": ""
+                    },
+                    "ProductCode": {
+                        "Confidence": 0.853,
+                        "ext_source": "DI",
+                        "Value": "DS72THX"
+                    },
+                    "Description": {
+                        "Confidence": 0.882,
+                        "ext_source": "DI",
+                        "Value": "Transit 2.0TDCI 130PS 350 LEA Finance"
+                    },
+                    "Quantity": {
+                        "Confidence": 1,
+                        "ext_source": "DI",
+                        "Value": 1
+                    },
+                    "Unit": {
+                        "Confidence": null,
+                        "ext_source": "DI",
+                        "Value": ""
+                    },
+                    "UnitPrice": {
+                        "Confidence": 1,
+                        "ext_source": "DI",
+                        "Value": {
+                            "amount": 0.0,
+                            "code": "GBP"
+                        }
+                    },
+                    "Tax": {
+                        "Confidence": 0.853,
+                        "ext_source": "DI",
+                        "Value": {
+                            "amount": 123.92,
+                            "code": "GBP"
+                        }
+                    },
+                    "NetAmount": {
+                        "Confidence": 0.863,
+                        "ext_source": "DI",
+                        "Value": {
+                            "amount": 743.52,
+                            "code": "GBP"
+                        }
+                    },
+                    "Amount": {
+                        "Confidence": 0.863,
+                        "ext_source": "DI",
+                        "Value": {
+                            "amount": 743.52,
+                            "code": "GBP"
+                        }
+                    },
+                    "TaxRate": {
+                        "Confidence": 0.98,
+                        "ext_source": "GEN AI",
+                        "Value": 20.0
+                    }
+                }
+            ],
+            "erp_name": "1SAP",
+            "event_details": {
+                "event_time": "2024-11-18T04:37:51.0000000Z",
+                "event_id": "k1fcLmxZlNV4RuxY0xm4GbASsaxsmpJq9YCQFlQPpFfY4mKxuQOJXSSsDdYt",
+                "subject": "Invoice Data Extracted"
+            }
+        },
+        "extraction_validation": {
+            "performance": "6.178619ms",
+            "result": {
+                "fields": [
+                    {
+                        "field": "bill_to_entity",
+                        "message": "Bill to Entity Name is Available",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Mandatory"
+                    },
+                    {
+                        "field": "currency",
+                        "message": "Invoice Currency is Available",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Mandatory"
+                    },
+                    {
+                        "field": "erp",
+                        "message": "1SAP",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Mandatory"
+                    },
+                    {
+                        "field": "freight_amount",
+                        "message": "Freight Amount is Missing",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "False",
+                        "validation_type": "Optional"
+                    },
+                    {
+                        "field": "invoice_amount",
+                        "message": "Net and Gross Amount are available",
+                        "next_step": "Proceeed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Mandatory"
+                    },
+                    {
+                        "field": "invoice_date",
+                        "message": "Invoice Date is Available",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Mandatory"
+                    },
+                    {
+                        "field": "invoice_id",
+                        "message": "Invoice Number is Available",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Mandatory"
+                    },
+                    {
+                        "field": "invoice_id_pattern",
+                        "message": "Invoice ID matches pattern",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Mandatory"
+                    },
+                    {
+                        "field": "po_pattern",
+                        "message": "PO matches pattern for Ariba",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Mandatory"
+                    },
+                    {
+                        "field": "purchase_order",
+                        "message": "PO Number is Available",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Mandatory"
+                    },
+                    {
+                        "field": "tax_amount",
+                        "message": "Tax Amount is Available",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Optional"
+                    },
+                    {
+                        "field": "vendor_name",
+                        "message": "Vendor Name is Available",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Mandatory"
+                    },
+                    {
+                        "field": "vendor_tax",
+                        "message": "Vendor Tax Number is Available",
+                        "next_step": "Proceed",
+                        "rejection_reason": "",
+                        "status": "True",
+                        "validation_type": "Mandatory"
+                    }
+                ],
+                "overallNextStep": "Proceed",
+                "overallNonPO": "No",
+                "overallStatus": "True"
+            },
+            "event_details": {
+                "event_time": "2024-11-18T04:37:52.0000000Z",
+                "event_id": "shiqymWsGgjm6CmDq044GOgvSgn8v6a3IbMnHzqyuC8sqVgYWNgd4sFumPGg",
+                "subject": "Success Extraction Validated"
+            }
+        },
+        "inv_po_gr_validation": {
+            "ValidationMatchingScores": {
+                "Vendor_name": {
+                    "Invoice_Value": "Enterprise",
+                    "PO_Value": "ENTERPRISE RENT-A-CAR UK LIMITED",
+                    "Score": 100
+                },
+                "PONumber": {
+                    "Invoice_Value": 3000121982,
+                    "PO_Value": 3000121982,
+                    "Score": 100
+                },
+                "Currency": {
+                    "Invoice_Value": "GBP",
+                    "PO_Value": "GBP",
+                    "Score": 100
+                },
+                "ABN": {
+                    "Invoice_Value": "GB 215 5573 14",
+                    "PO_Value": "GB215557314",
+                    "Score": 82
+                },
+                "BankAccountNumber": {
+                    "Invoice_Value": 22762315,
+                    "PO_Value": 22762315,
+                    "Score": 100
+                },
+                "Iban": {
+                    "Invoice_Value": "GB58HBUK40141322762315",
+                    "PO_Value": "GB58HBUK40141322762315",
+                    "Score": 100
+                },
+                "BillToName": {
+                    "Invoice_Value": "Siemens Gamesa Renewable Energy Ltd\nBlade Factory",
+                    "PO_Value": null,
+                    "Score": 25
+                },
+                "CompanyCode": "441T",
+                "Currency0": "GBP1",
+                "Currency1": "",
+                "Currency2": "",
+                "Currency3": "",
+                "Currency4": ""
+            },
+            "ValidationMatchingGorulesResult": {
+                "performance": "3.49865ms",
+                "result": {
+                    "fields": [
+                        {
+                            "field": "bank_account",
+                            "message": "Invoice bank account available and matches Vendor Master bank account",
+                            "next_step": "Proceed",
+                            "rejection_reason": "",
+                            "status": "True",
+                            "validation_type": "Mandatory"
+                        },
+                        {
+                            "field": "bill_to_name",
+                            "message": "Valid Bill To Name",
+                            "next_step": "Proceed",
+                            "rejection_reason": "",
+                            "status": "True",
+                            "validation_type": "Mandatory"
+                        },
+                        {
+                            "field": "currency",
+                            "message": "PO and invoice currencies match",
+                            "next_step": "Proceed",
+                            "rejection_reason": "",
+                            "status": "True",
+                            "validation_type": "Mandatory"
+                        },
+                        {
+                            "field": "iban",
+                            "message": "Vendor IBAN matches Invoice IBAN",
+                            "next_step": "Proceed",
+                            "rejection_reason": "",
+                            "status": "True",
+                            "validation_type": "Mandatory"
+                        },
+                        {
+                            "field": "vendor_name",
+                            "message": "Invoice Vendor Name matches PO Vendor Name",
+                            "next_step": "Proceed",
+                            "rejection_reason": "",
+                            "status": "True",
+                            "validation_type": "Mandatory"
+                        }
+                    ],
+                    "overallStatus": "True",
+                    "overallnextStep": "Proceed"
+                }
+            },
+            "event_details": {
+                "event_time": "2024-11-18T04:38:05.0000000Z",
+                "event_id": "lMSMu3mzfZWdvSzH7xNNV5KB6XuUVi0GCORUuUmWW9rlcXa4mTF5LeOPjZRa",
+                "subject": "Success Invoice/PO/GR Validated"
+            }
+        },
+        "Hilighted_fields": [
+            "freight_amount"
+        ],
+        "match_results": {
+            "two_way_result": {
+                "Item_1": {
+                    "Description": {
+                        "Invoice_Value": "Transit 2.0TDCI 130PS 350 LEA Finance",
+                        "PO_Value": "Enterprise SO3 Vehicle Hire FY23/24 - Re",
+                        "Invoice_PO_Score": 38
+                    },
+                    "Amount": {
+                        "Invoice_Value": 619.6,
+                        "PO_Value": 94000.0,
+                        "Invoice_PO_Score": 100
+                    },
+                    "Quantity": {
+                        "Invoice_Value": 1.0,
+                        "PO_Value": 1.0,
+                        "Invoice_PO_Score": 100
+                    }
+                }
+            },
+            "go_rule_result_match": {
+                "performance": "1.525822ms",
+                "result": {
+                    "table": {
+                        "final_overallStatus": "True",
+                        "message": "Single PO line amount greater then invoice amount",
+                        "next_step": "Proceed"
+                    }
+                },
+                "two_way_result_status": "True"
+            },
+            "event_details": {
+                "event_time": "2024-11-18T04:38:07.0000000Z",
+                "event_id": "ua1KBUF9Ag9xqcf5TmGOO0eWMWwiVswVEh0dhYZjugQaGXcObEr6XLZxaJAO",
+                "subject": "Success Match performed"
+            }
+        },
+        "invoice_posting_results": {
+            "status": "Success",
+            "result": 201,
+            "event_details": {
+                "event_time": "2024-11-18T04:38:10.0000000Z",
+                "event_id": "yb1ylLXO84iA9N1HQX8BAMdWLMFWJzw12JPYuxQ0cKAsJ4efrHa2ytRyVgnA",
+                "subject": "Invoice Posted"
+            }
+        }
+    },
+    "event_type": "P2P_event",
+    "event_time": "2024-11-18T04:38:10.0000000Z",
+    "id": "yb1ylLXO84iA9N1HQX8BAMdWLMFWJzw12JPYuxQ0cKAsJ4efrHa2ytRyVgnA",
+    "subject": "Invoice Posted"
+}
